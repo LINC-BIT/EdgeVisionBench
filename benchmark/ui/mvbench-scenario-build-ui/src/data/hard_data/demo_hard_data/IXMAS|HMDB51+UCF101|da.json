@@ -1,0 +1,36 @@
+{
+  "targetSourceRelationshipMap": {
+    "HMDB51": {
+      "IXMAS": "Dataset Shifts"
+    },
+    "UCF101": {
+      "IXMAS": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "IXMAS": {
+      "knownClasses": [
+        "punch"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "HMDB51": {
+      "knownClasses": [
+        "punch"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "UCF101": {
+      "knownClasses": [
+        "punch"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "punch": 0
+  }
+}

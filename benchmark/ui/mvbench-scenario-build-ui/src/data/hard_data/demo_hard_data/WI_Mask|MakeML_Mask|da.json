@@ -1,0 +1,29 @@
+{
+  "targetSourceRelationshipMap": {
+    "MakeML_Mask": {
+      "WI_Mask": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "WI_Mask": {
+      "knownClasses": [
+        "face_no_mask",
+        "face_with_mask"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "MakeML_Mask": {
+      "knownClasses": [
+        "face_no_mask",
+        "face_with_mask"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "face_no_mask": 0,
+    "face_with_mask": 1
+  }
+}

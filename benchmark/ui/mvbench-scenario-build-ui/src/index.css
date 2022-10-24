@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-size: 18px!important;
+}
+
+.ant-radio-wrapper > span {
+  font-size: 18px!important;
+}
+.ant-radio {
+  width: 18px!important;
+  height: 18px!important;
+}
+
+.ant-select, .ant-select-tree, .ant-input-number-input, .ant-tag,
+.ant-alert-message, .ant-btn-primary, .ant-collapse-header-text, div.ant-typography {
+  font-size: 18px!important;
+}
+
+.ant-btn-primary {
+  line-height: 24px!important;
+  height: 40px!important;
+  padding: 6px 15px!important;
+}
+
+.ant-tag-close-icon {
+  font-size: 14px!important;
+}
+
+.ant-table-cell {
+  font-size: 16px!important;
+  
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+  font-size: 18px!important;
+  vertical-align: -8px!important;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2 {
+  color: #1890ff !important;
+}
+
+h3::before, h4::before {
+  content: '- ';
+}
+
+.no-dash::before {
+  content: '';
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-prev:focus {
+  font-size: inherit;
+  left: 10px;
+  z-index: 2;
+  color: blueviolet;
+}
+
+.ant-carousel .slick-next,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-next:focus {
+  font-size: inherit;
+  right: 10px;
+  z-index: 2;
+  color: blueviolet;
+}
+
+.ant-timeline-item-head {
+  width: 16px!important;
+  height: 16px!important;
+  left: -3px!important;
+  /* top: -7px!important; */
+}
+
+/* .ant-timeline-item-tail {
+  height: 100%;
+} */

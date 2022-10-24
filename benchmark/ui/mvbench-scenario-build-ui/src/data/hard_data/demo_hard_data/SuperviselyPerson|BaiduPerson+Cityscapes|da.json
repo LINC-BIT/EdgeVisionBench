@@ -1,0 +1,36 @@
+{
+  "targetSourceRelationshipMap": {
+    "BaiduPerson": {
+      "SuperviselyPerson": "Dataset Shifts"
+    },
+    "Cityscapes": {
+      "SuperviselyPerson": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "SuperviselyPerson": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "BaiduPerson": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "Cityscapes": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "person": 0
+  }
+}

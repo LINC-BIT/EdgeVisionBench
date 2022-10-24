@@ -1,0 +1,26 @@
+{
+  "targetSourceRelationshipMap": {
+    "GTA5": {
+      "SuperviselyPerson": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "SuperviselyPerson": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "GTA5": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "person": 0
+  }
+}

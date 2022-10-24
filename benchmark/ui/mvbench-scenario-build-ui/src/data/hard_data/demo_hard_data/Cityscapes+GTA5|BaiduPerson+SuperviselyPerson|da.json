@@ -1,0 +1,45 @@
+{
+  "targetSourceRelationshipMap": {
+    "BaiduPerson": {
+      "GTA5": "Dataset Shifts",
+      "Cityscapes": "Dataset Shifts"
+    },
+    "SuperviselyPerson": {
+      "GTA5": "Dataset Shifts",
+      "Cityscapes": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "GTA5": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "Cityscapes": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "BaiduPerson": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "SuperviselyPerson": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "person": 0
+  }
+}

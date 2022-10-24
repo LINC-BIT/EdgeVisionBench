@@ -1,0 +1,28 @@
+{
+  "targetSourceRelationshipMap": {
+    "GTA5": {
+      "BaiduPerson": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "BaiduPerson": {
+      "knownClasses": [
+        "person",
+        "background"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "GTA5": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "person": 0,
+    "background": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "targetSourceRelationshipMap": {
+    "HMDB51": {
+      "IXMAS": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "IXMAS": {
+      "knownClasses": [
+        "kick",
+        "punch",
+        "walk",
+        "wave"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "HMDB51": {
+      "knownClasses": [
+        "kick",
+        "punch",
+        "walk",
+        "wave"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "kick": 0,
+    "punch": 1,
+    "walk": 2,
+    "wave": 3
+  }
+}

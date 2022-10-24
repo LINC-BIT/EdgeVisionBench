@@ -1,0 +1,86 @@
+{
+  "targetSourceRelationshipMap": {
+    "MakeML_Mask": {
+      "WI_Mask": "Dataset Shifts"
+    },
+    "VOC2012": {
+      "COCO2017": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "COCO2017": {
+      "knownClasses": [
+        "person",
+        "bicycle",
+        "car",
+        "bus",
+        "train",
+        "boat",
+        "bird",
+        "cat",
+        "dog",
+        "horse",
+        "sheep",
+        "cow",
+        "bottle",
+        "chair"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "WI_Mask": {
+      "knownClasses": [
+        "face_no_mask",
+        "face_with_mask"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "MakeML_Mask": {
+      "knownClasses": [
+        "face_no_mask",
+        "face_with_mask"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "VOC2012": {
+      "knownClasses": [
+        "boat",
+        "person",
+        "car",
+        "bus",
+        "horse",
+        "train",
+        "chair",
+        "dog",
+        "cat",
+        "bicycle",
+        "bird",
+        "bottle",
+        "sheep",
+        "cow"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "person": 0,
+    "bicycle": 1,
+    "car": 2,
+    "bus": 3,
+    "train": 4,
+    "boat": 5,
+    "bird": 6,
+    "cat": 7,
+    "dog": 8,
+    "horse": 9,
+    "sheep": 10,
+    "cow": 11,
+    "bottle": 12,
+    "chair": 13,
+    "face_no_mask": 14,
+    "face_with_mask": 15
+  }
+}

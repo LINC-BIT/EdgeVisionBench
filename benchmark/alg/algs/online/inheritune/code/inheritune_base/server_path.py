@@ -1,0 +1,2 @@
+raise NotImplementedError("\n\nPlease modify the variable 'server_root_path', in the file 'server_path.py', to point to the project directory from root. For eg. If the supplementary zip file was downloaded in /home/user/Downloads, set server_root_path = '/home/user/Downloads/inheritune/'")
+server_root_path = '/home/user/Downloads/inheritune/' # Folder containing the project with subfolders code, data, summaries, weights

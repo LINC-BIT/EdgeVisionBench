@@ -1,0 +1,9 @@
+@import '~antd/dist/antd.css';
+
+
+.App {
+  padding: 2rem;
+  /* font-size: 1rem; */
+  max-width: 1000px;
+  margin: 0 auto;
+}

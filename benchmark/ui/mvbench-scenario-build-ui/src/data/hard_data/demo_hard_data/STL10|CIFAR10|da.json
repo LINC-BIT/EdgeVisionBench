@@ -1,0 +1,47 @@
+{
+  "targetSourceRelationshipMap": {
+    "CIFAR10": {
+      "STL10": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "STL10": {
+      "knownClasses": [
+        "airplane",
+        "bird",
+        "cat",
+        "deer",
+        "dog",
+        "horse",
+        "ship",
+        "truck"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "CIFAR10": {
+      "knownClasses": [
+        "airplane",
+        "bird",
+        "cat",
+        "deer",
+        "dog",
+        "horse",
+        "ship",
+        "truck"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "airplane": 0,
+    "bird": 1,
+    "cat": 2,
+    "deer": 3,
+    "dog": 4,
+    "horse": 5,
+    "ship": 6,
+    "truck": 7
+  }
+}

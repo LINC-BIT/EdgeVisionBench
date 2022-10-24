@@ -1,0 +1,73 @@
+{
+  "targetSourceRelationshipMap": {
+    "STL10": {
+      "CIFAR10": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "CIFAR10": {
+      "knownClasses": [
+        "airplane",
+        "bird",
+        "cat",
+        "deer",
+        "dog",
+        "horse",
+        "ship",
+        "truck"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "MNIST": {
+      "knownClasses": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "STL10": {
+      "knownClasses": [
+        "airplane",
+        "bird",
+        "cat",
+        "deer",
+        "dog",
+        "horse",
+        "ship",
+        "truck"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "airplane": 0,
+    "bird": 1,
+    "cat": 2,
+    "deer": 3,
+    "dog": 4,
+    "horse": 5,
+    "ship": 6,
+    "truck": 7,
+    "0": 8,
+    "1": 9,
+    "2": 10,
+    "3": 11,
+    "4": 12,
+    "5": 13,
+    "6": 14,
+    "7": 15,
+    "8": 16,
+    "9": 17
+  }
+}

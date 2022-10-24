@@ -1,0 +1,52 @@
+{
+  "targetSourceRelationshipMap": {
+    "IXMAS": {
+      "HMDB51": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "HMDB51": {
+      "knownClasses": [
+        "kick",
+        "punch",
+        "walk",
+        "wave"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "IXMAS": {
+      "knownClasses": [
+        "kick",
+        "punch",
+        "walk",
+        "wave"
+      ],
+      "unknownClasses": [
+        "get_up",
+        "pick_up",
+        "sit_down",
+        "cross_arms",
+        "turn_around",
+        "scratch_head",
+        "point",
+        "check_watch"
+      ],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "kick": 0,
+    "punch": 1,
+    "walk": 2,
+    "wave": 3,
+    "check_watch": 4,
+    "cross_arms": 4,
+    "get_up": 4,
+    "pick_up": 4,
+    "point": 4,
+    "scratch_head": 4,
+    "sit_down": 4,
+    "turn_around": 4
+  }
+}

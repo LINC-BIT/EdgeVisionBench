@@ -1,0 +1,29 @@
+{
+  "targetSourceRelationshipMap": {
+    "UCF101": {
+      "HMDB51": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "HMDB51": {
+      "knownClasses": [
+        "fencing",
+        "punch"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "UCF101": {
+      "knownClasses": [
+        "fencing",
+        "punch"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "fencing": 0,
+    "punch": 1
+  }
+}

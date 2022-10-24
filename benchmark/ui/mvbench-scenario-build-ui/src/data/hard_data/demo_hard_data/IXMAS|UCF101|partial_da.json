@@ -1,0 +1,48 @@
+{
+  "targetSourceRelationshipMap": {
+    "UCF101": {
+      "IXMAS": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "IXMAS": {
+      "knownClasses": [
+        "check_watch",
+        "cross_arms",
+        "get_up",
+        "kick",
+        "pick_up",
+        "point",
+        "punch",
+        "scratch_head",
+        "sit_down",
+        "turn_around",
+        "walk",
+        "wave"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "UCF101": {
+      "knownClasses": [
+        "punch"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "check_watch": 0,
+    "cross_arms": 1,
+    "get_up": 2,
+    "kick": 3,
+    "pick_up": 4,
+    "point": 5,
+    "punch": 6,
+    "scratch_head": 7,
+    "sit_down": 8,
+    "turn_around": 9,
+    "walk": 10,
+    "wave": 11
+  }
+}

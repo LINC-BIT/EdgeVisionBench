@@ -1,0 +1,29 @@
+{
+  "targetSourceRelationshipMap": {
+    "SuperviselyPerson": {
+      "Cityscapes": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "Cityscapes": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "SuperviselyPerson": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [
+        "background"
+      ],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "person": 0,
+    "background": 1
+  }
+}

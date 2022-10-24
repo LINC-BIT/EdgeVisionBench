@@ -1,0 +1,74 @@
+{
+  "targetSourceRelationshipMap": {
+    "Cityscapes": {
+      "SuperviselyPerson": "Dataset Shifts",
+      "BaiduPerson": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "SuperviselyPerson": {
+      "knownClasses": [
+        "background",
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "BaiduPerson": {
+      "knownClasses": [
+        "person",
+        "background"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "Cityscapes": {
+      "knownClasses": [
+        "person"
+      ],
+      "unknownClasses": [
+        "motocycle",
+        "bus",
+        "fence",
+        "sidewalk",
+        "sky",
+        "train",
+        "rider",
+        "wall",
+        "sign",
+        "truck",
+        "pole",
+        "car",
+        "bicycle",
+        "building",
+        "road",
+        "light",
+        "terrain",
+        "vegetation"
+      ],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "background": 0,
+    "person": 1,
+    "road": 2,
+    "sidewalk": 2,
+    "building": 2,
+    "wall": 2,
+    "fence": 2,
+    "pole": 2,
+    "light": 2,
+    "sign": 2,
+    "vegetation": 2,
+    "terrain": 2,
+    "sky": 2,
+    "rider": 2,
+    "car": 2,
+    "truck": 2,
+    "bus": 2,
+    "train": 2,
+    "motocycle": 2,
+    "bicycle": 2
+  }
+}

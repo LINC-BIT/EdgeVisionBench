@@ -1,0 +1,90 @@
+{
+  "targetSourceRelationshipMap": {
+    "GTA5": {
+      "Cityscapes": "Dataset Shifts"
+    }
+  },
+  "classesInEachDatasetMap": {
+    "SuperviselyPerson": {
+      "knownClasses": [
+        "background",
+        "person"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "Cityscapes": {
+      "knownClasses": [
+        "road",
+        "sidewalk",
+        "building",
+        "wall",
+        "fence",
+        "pole",
+        "light",
+        "sign",
+        "vegetation",
+        "terrain",
+        "sky",
+        "people",
+        "rider",
+        "car",
+        "truck",
+        "bus",
+        "train",
+        "motocycle",
+        "bicycle"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    },
+    "GTA5": {
+      "knownClasses": [
+        "road",
+        "sidewalk",
+        "building",
+        "wall",
+        "fence",
+        "pole",
+        "light",
+        "sign",
+        "vegetation",
+        "terrain",
+        "sky",
+        "people",
+        "rider",
+        "car",
+        "truck",
+        "bus",
+        "train",
+        "motocycle",
+        "bicycle"
+      ],
+      "unknownClasses": [],
+      "discardedClasses": []
+    }
+  },
+  "indexClassMap": {
+    "background": 0,
+    "person": 1,
+    "road": 2,
+    "sidewalk": 3,
+    "building": 4,
+    "wall": 5,
+    "fence": 6,
+    "pole": 7,
+    "light": 8,
+    "sign": 9,
+    "vegetation": 10,
+    "terrain": 11,
+    "sky": 12,
+    "people": 13,
+    "rider": 14,
+    "car": 15,
+    "truck": 16,
+    "bus": 17,
+    "train": 18,
+    "motocycle": 19,
+    "bicycle": 20
+  }
+}
