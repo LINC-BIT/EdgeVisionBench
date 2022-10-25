@@ -31,7 +31,15 @@
 
 ## 1. Introduction
 
-**[Visit our website](https://crawler995.github.io/edgevisionbench-homepage/)**
+**Vision dataset repository**
+
+In EdgeVisionBench, we collect hundreds of datasets belonging to four types of edge vision applications: (1) Image classification applications aim to recognize the category of an image; (2) Object detection applications aim to detect the category and location of each object in an image; (3) Semantic segmentation applications aim to recognize the category of each pixel in an image; (4) Action recognition applications aim to recognize the category of an action in a video clip.
+
+**Interactive demonstration**
+
+Among the numerous possible scenarios that audience members can interact with EdgeVisionBench, we provide a list of example scenarios in the website: (i) image classification on Raspberry Pi and Jetson Nano; (ii) object detection on Jetson TX2; (iii) semantic segmentation on Jetson Xavier NX; and (iv) action regnition on Jetson AGX Orin.
+
+**Abstract**
 
 Vision applications powered by deep neural networks (DNN) are widely deployed on edge devices and solve the tasks of incoming data streams whose label and feature distribution shift, known as domain shift. Despite their prominent presence in the real-world edge scenarios, existing benchmarks used by domain adaptation algorithms overlook evolving domain shifts in both feature and label distribution. To address this gap, we present `EdgeVisionBench`, a benchmark including over 100 vision datasets and generating different evolving domain shifts encountered by DNNs at edge. To facilitate method evaluation, we provide an open-source package that automates dataset generation, contains popular DNN models and compression techniques, and standardizes evaluations for domain adaptation techniques on edge devices.
 
