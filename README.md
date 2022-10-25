@@ -64,6 +64,7 @@ Among the numerous possible scenarios that audience members can interact with Ed
 
 Vision applications powered by deep neural networks (DNN) are widely deployed on edge devices and solve the tasks of incoming data streams whose label and feature distribution shift, known as domain shift. Despite their prominent presence in the real-world edge scenarios, existing benchmarks used by domain adaptation algorithms overlook evolving domain shifts in both feature and label distribution. To address this gap, we present `EdgeVisionBench`, a benchmark including over 100 vision datasets and generating different evolving domain shifts encountered by DNNs at edge. To facilitate method evaluation, we provide an open-source package that automates dataset generation, contains popular DNN models and compression techniques, and standardizes evaluations for domain adaptation techniques on edge devices.
 
+https://github.com/LINC-BIT/EdgeVisionBench/blob/main/video.mp4
 
 
 ## 2. Datasets Repository
