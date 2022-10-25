@@ -25,19 +25,40 @@
       - [3.4.3 Hyperparameters Search](#343-hyperparameters-search)
       - [3.4.4 Evaluation with Monitoring](#344-evaluation-with-monitoring)
       - [3.4.5 Setup User Interface](#345-setup-user-interface)
-  - [4. Demonstrations](#4-demonstrations)
-  - [5. Dependent projects](#5-dependent-projects)
+  - [4. Dependent projects](#4-dependent-projects)
 
 
 ## 1. Introduction
 
 **Vision dataset repository**
 
+The detailed list of collected datasets locates in https://crawler995.github.io/edgevisionbench-dataset/.
+
 In EdgeVisionBench, we collect hundreds of datasets belonging to four types of edge vision applications: (1) Image classification applications aim to recognize the category of an image; (2) Object detection applications aim to detect the category and location of each object in an image; (3) Semantic segmentation applications aim to recognize the category of each pixel in an image; (4) Action recognition applications aim to recognize the category of an action in a video clip.
 
 **Interactive demonstration**
 
-Among the numerous possible scenarios that audience members can interact with EdgeVisionBench, we provide a list of example scenarios in the website: (i) image classification on Raspberry Pi and Jetson Nano; (ii) object detection on Jetson TX2; (iii) semantic segmentation on Jetson Xavier NX; and (iv) action regnition on Jetson AGX Orin.
+Among the numerous possible scenarios that audience members can interact with EdgeVisionBench, we provide a list of example scenarios in the website:
+
+- Image Classification on Raspberry Pi 
+
+  https://crawler995.github.io/edgevisionbench-demo-pi/
+
+- Image Classification on Jetson Nano
+
+  https://crawler995.github.io/edgevisionbench-demo-jetson-nano/
+
+- Object Detection on Jetson TX2
+
+  https://crawler995.github.io/edgevisionbench-demo-jetson-tx2/
+
+- Semantic Segmentation on Jetson Xavier NX
+
+  https://crawler995.github.io/edgevisionbench-demo-jetson-xavier-nx/
+
+- Action Recognition on Jetson AGX Orin
+
+  https://crawler995.github.io/edgevisionbench-demo-jetson-agx-orin/
 
 **Abstract**
 
@@ -565,35 +586,7 @@ npm start
 Then the user interface will be automatically launched in your browser.
 
 
-## 4. Demonstrations
-
-Among the numerous possible scenarios that audience members can interact with EdgeVisionBench, we provide a list of example scenarios in the website:
-
-- Raspberry Pi (Image Classification)
-
-  https://crawler995.github.io/edgevisionbench-demo-pi/
-
-- Jetson Nano (Image Classification)
-
-  https://crawler995.github.io/edgevisionbench-demo-jetson-nano/
-
-- Jetson TX2 (Object Detection)
-
-  https://crawler995.github.io/edgevisionbench-demo-jetson-tx2/
-
-- Jetson Xavier NX (Semantic Segmentation)
-
-  https://crawler995.github.io/edgevisionbench-demo-jetson-xavier-nx/
-
-- Jetson AGX Orin (Action Recognition)
-
-  https://crawler995.github.io/edgevisionbench-demo-jetson-agx-orin/
-
-
-The websites demonstrate our setup UI.
-
-
-## 5. Dependent projects
+## 4. Dependent projects
 
 Thanks to these projects!
 
